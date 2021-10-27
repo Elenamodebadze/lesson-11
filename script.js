@@ -51,16 +51,16 @@ let users = {
   age:  20,
   studentstatus: "active"}
 
- if (user.age>18 && user.studentstatus==="active") {
+ if (user.age>18 && user.studentstatus === "active") {
    console.log("hello")
  }
 
 
-if (users.name==="giorgi"){
+if (users.name === "giorgi"){
   console.log("hello giorgi")
 }
 
-if(users.studentstatus=="active" || users.age<25){
+if(users.studentstatus === "active" || users.age<25){
   console.log ("hello world")
 }
 
